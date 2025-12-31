@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ne">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>भर्ना | वेद वेदाङ्ग संस्कृत विद्यापीठ</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Martel:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <style>
+        .sub-hero {
+            height: 350px;
+            background: linear-gradient(rgba(139, 69, 19, 0.7), rgba(139, 69, 19, 0.7)), url('https://images.unsplash.com/photo-1523050335392-9befdf553b39?auto=format&fit=crop&q=80&w=1920');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .admission-steps {
+            list-style: none;
+            counter-reset: admission-counter;
+        }
+
+        .admission-steps li {
+            position: relative;
+            padding-left: 60px;
+            margin-bottom: 30px;
+            counter-increment: admission-counter;
+        }
+
+        .admission-steps li::before {
+            content: counter(admission-counter);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 40px;
+            height: 40px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="header" class="scrolled">
+        <div class="container">
+            <nav>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <a href="index.html" class="logo">
+                    <span>वेद वेदाङ्ग संस्कृत विद्यापीठ</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">गृहपृष्ठ</a></li>
+                    <li><a href="about.html" class="nav-link">हाम्रो बारेमा</a></li>
+                    <li><a href="admissions.html" class="nav-link">भर्ना</a></li>
+                    <li><a href="contact.html" class="nav-link">सम्पर्क</a></li>
+                    <li><a href="apply.html" class="btn-apply">भर्ना जानकारी</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="sub-hero">
+        <div class="container">
+            <h1>भर्ना प्रक्रिया</h1>
+            <p>शैक्षिक वर्ष २०८१-८२ को लागि आवेदन खुला छ</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="grid grid-2" style="gap: 80px;">
+                <div>
+                    <div class="section-title" style="text-align: left;">
+                        <p>भर्ना निर्देशिका</p>
+                        <h2>हाम्रो प्रक्रिया</h2>
+                    </div>
+                    <ul class="admission-steps">
+                        <li>
+                            <h4>फारम भर्नुहोस्</h4>
+                            <p>देवघाट स्थित विद्यापीठको कार्यालयमा सिधै सम्पर्क गर्नुहोस्।</p>
+                        </li>
+                        <li>
+                            <h4>प्रवेश परीक्षा</h4>
+                            <p>संस्कृत र सामान्य ज्ञानको आधारभूत परीक्षामा सहभागी हुनुहोस्।</p>
+                        </li>
+                        <li>
+                            <h4>अन्तर्वार्ता</h4>
+                            <p>आचार्यहरूसँगको व्यक्तिगत अन्तर्वार्ता।</p>
+                        </li>
+                        <li>
+                            <h4>भर्ना पुष्टि</h4>
+                            <p>सफलतापूर्वक छनौट भएपछि विद्यार्थीले भर्ना पत्र प्राप्त गर्नेछन्।</p>
+                        </li>
+                    </ul>
+                </div>
+                <div style="background: var(--secondary); color: white; padding: 50px; border-radius: 20px;">
+                    <div class="badge-free">महत्त्वपूर्ण जानकारी</div>
+                    <h3 style="color: white; margin-bottom: 20px;">विद्यार्थी सुविधाहरू</h3>
+                    <p style="margin-bottom: 30px;">वेद वेदाङ्ग संस्कृत विद्यापीठ एक नाफामूलक संस्था होइन। हामी प्राचीन
+                        शिक्षाको प्रवर्द्धनका लागि निम्न सुविधाहरू प्रदान गर्दछौं:</p>
+                    <ul style="list-style: none;">
+                        <li style="margin-bottom: 15px;"><i class="fas fa-check-circle"
+                                style="color: var(--primary); margin-right: 15px;"></i> १००% निःशुल्क शिक्षा</li>
+                        <li style="margin-bottom: 15px;"><i class="fas fa-check-circle"
+                                style="color: var(--primary); margin-right: 15px;"></i> निःशुल्क सुविधायुक्त छात्रवास
+                        </li>
+                        <li style="margin-bottom: 15px;"><i class="fas fa-check-circle"
+                                style="color: var(--primary); margin-right: 15px;"></i> निःशुल्क सात्विक भोजन</li>
+                        <li style="margin-bottom: 15px;"><i class="fas fa-check-circle"
+                                style="color: var(--primary); margin-right: 15px;"></i> छात्रवृत्ति सुविधाहरू</li>
+                    </ul>
+                    <a href="apply.html" class="btn-apply"
+                        style="display: inline-block; margin-top: 30px; width: 100%; text-align: center;">भर्ना सम्बन्धि
+                        थप जानकारी</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>वेद वेदाङ्ग संस्कृत विद्यापीठ</h3>
+                    <p>देवघाट-५, तनहुँ</p>
+                    <p style="margin-top: 15px;">संस्कृत र पूर्वीय दर्शनको लागि एक अन्तर्राष्ट्रिय केन्द्र, जुन सम्पदाको
+                        संरक्षण र वैश्विक छात्रवृत्तिको प्रवर्द्धनका लागि समर्पित छ।</p>
+                </div>
+                <div class="footer-links">
+                    <h4>द्रुत लिङ्कहरू</h4>
+                    <ul>
+                        <li><a href="about.html">हामी को हौं</a></li>
+                        <li><a href="faculty.html">संकाय</a></li>
+                        <li><a href="research.html">अनुसन्धान</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>क्याम्पस जीवन</h4>
+                    <ul>
+                        <li><a href="campus-life.html">विद्यार्थी जीवन</a></li>
+                        <li><a href="campus-life.html#facilities">सुविधाहरू</a></li>
+                        <li><a href="events.html">घटनाक्रम र समाचार</a></li>
+                        <li><a href="gallery.html">ग्यालरी</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>सम्पर्क</h4>
+                    <p>ठेगाना: देवघाट-५, तनहुँ</p>
+                    <p>इमेल: vvsgurukulam2023@gmail.com</p>
+                    <p>फोन: +९७७-९७६३६३०९८४</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; २०८१ वेद वेदाङ्ग संस्कृत विद्यापीठ। देवघाट-५, तनहुँ</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
